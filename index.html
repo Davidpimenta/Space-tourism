@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="home.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,600;0,800;1,400;1,500;1,800&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="images/favicon-32x32.png" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <title>Space Tourism</title>
+</head>
+<body>
+    <header>
+        <div class="conteiner-menu-global">
+            <img class="logo" src="images/shared/logo.svg" alt="Logo">
+        <button class="btn" onclick="ativar()" id="btn-menu">
+            <span class="linha"></span>
+            <span class="linha"></span>
+            <span class="linha"></span>
+        </button>
+    </header>
+    <main>
+        <section id="main-conteiner">
+            <div class="conteiner-text">
+                <p>so, you want to travel to</p>
+                <h1>space</h1>
+                <p>Let's face it; if you want to go to space, you might as well genuinely go to outer space and not hover kind of on the edge of it. Well, sit back, and relax because we'll give you a truly out of this world experience!</p>
+            </div>
+            <div class="conteiner-explore">
+                <a href="destination.html">explore</a>
+            </div>
+        </section>
+
+        <menu id="mobile-menu" class="mobile-menu">
+            <section class="m-mobile">
+                <ul>
+                    <li class="li-opt"><a href="index.html">00 home</a></li>
+                    <li class="li-opt"><a href="destination.html">01 destination</a></li>
+                    <li class="li-opt"><a href="crew.html">03 crew</a></li>
+                    <li class="li-opt"><a href="technology.html">04 tecnhology</a></li>
+                </ul>
+            </section>
+        </menu>
+    </main>
+
+    <picture class="background">
+        <source media="(max-width:430px)" srcset="images/home/background-home-mobile.jpg">
+        <source media="(max-width:944px)" srcset="images/home/background-home-tablet.jpg">
+        <img src="images/home/background-home-desktop.jpg" alt="background" class="hero">
+    </picture>
+
+    <script src="js.js"></script>
+</body>
+</html>
