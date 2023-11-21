@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="home.css">
+    <link rel="stylesheet" href="homeresponsive.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,600;0,800;1,400;1,500;1,800&display=swap" rel="stylesheet">
@@ -14,12 +15,23 @@
 <body>
     <header>
         <div class="conteiner-menu-global">
-            <img class="logo" src="images/shared/logo.svg" alt="Logo">
+            <div class="conteiner-logo">
+                <img class="logo" src="images/shared/logo.svg" alt="Logo">
+                <div class="rastro"></div>
+            </div>
         <button class="btn" onclick="ativar()" id="btn-menu">
             <span class="linha"></span>
             <span class="linha"></span>
             <span class="linha"></span>
         </button>
+        <menu class="menu-desktop">
+            <ul>
+                <li class="opt-actv"><a href="index.html">00 home</a></li>
+                <li><a href="destination.html">01 destination</a></li>
+                <li><a href="crew.html">02 crew</a></li>
+                <li><a href="technology.html">03 tecnhology</a></li>
+            </ul>
+        </menu>
     </header>
     <main>
         <section id="main-conteiner">
