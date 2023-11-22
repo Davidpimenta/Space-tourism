@@ -190,6 +190,14 @@ main > section{
     border: 1px solid #525258;
     cursor: pointer;
     text-decoration: none;
+    transition: all 0.5s ease-out;
+}
+
+.conteiner-explore > a:hover{
+    background-color: transparent;
+    color: #E9E9EA;
+    transform: scale(1.1);
+    transition: all 0.5s ease-out;
 }
 
 
@@ -321,6 +329,11 @@ main > section{
 }
 
 .opt-actv{
+    border-bottom: 3px solid white;
+    border-radius: 2px;
+}
+
+.opt-actv2{
     border-bottom: 3px solid white;
     border-radius: 2px;
 }

@@ -34,23 +34,28 @@ main{
 .conteiner-opts{
     display: flex;
     justify-content: space-between;
-    width: 100%;
+    width: 100px!important;
+    margin-top: 20px;
+}
+
+.opts-d{
+    display: none;
 }
 
 .conteiner-opts li{
-    margin-top: 30px;
-    height: auto;
-    font-size: 20px;
-    color: #E9E9EA;
-    list-style: none;
-    text-transform: uppercase;
-    padding-bottom: 30px;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: darkgray;
     cursor: pointer;
+    list-style: none;
+    transition: all 0.5s ease-out;
 }
 
 .opt-actv{
-    border-bottom: 3px solid white;
-    border-radius: 2px;
+   background-color: white!important;
+   border: none;
+   transition: all 0.5s ease-out;
 }
 
 .opt-actv2{
@@ -58,14 +63,17 @@ main{
     border-radius: 2px;
 }
 
-.conteiner-moons{
-    margin-top: 20px;
-    width: 90%;
+.conteiner-crew{
+    margin-top: 30px;
+    width: 70%;
+    display: flex;
+    justify-content: center;
 }
 
-.moon{
+.crew{
     width: 100%;
 }
+
 
 .conteiner-description{
     margin-top: 20px;
@@ -81,9 +89,10 @@ main{
 }
 
 .conteiner-description-text h1{
-    font-size: 40px;
+    font-size: 30px;
     letter-spacing: 5px;
     color: #E9E9EA;
+    text-align: center;
     text-transform: uppercase;
 }
 
@@ -93,36 +102,12 @@ main{
     color: #adadb9;
 }
 
-.conteiner-information{
-    margin-top: 20px;
-    display: flex;
-    flex-direction: row;
-    gap: 30px;
-}
-
-.information-text{
-    display: flex;
-    flex-direction: column;
-}
-
-.information{
-    display: flex;
-    flex-direction: column;
-}
-
-.information h1{
+.conteiner-description-text p:nth-child(1){
+    font-size: 30px;
     text-transform: uppercase;
-    letter-spacing: 2px;
-    color: #E9E9EA;
-    font-size: 20px;
-    font-weight: 100;
-}
-
-.information p{
-    text-transform: uppercase;
-    letter-spacing: 2px;
+    letter-spacing: 0px;
     color: #adadb9;
-    font-size: 15px;
+    text-align: center;
 }
 
 
