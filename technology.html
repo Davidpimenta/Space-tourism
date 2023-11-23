@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="home.css">
+    <link rel="stylesheet" href="homeresponsive.css">
+    <link rel="stylesheet" href="tecnhology.css">
+    <link rel="stylesheet" href="tecnhologyresponsive.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,600;0,800;1,400;1,500;1,800&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="images/favicon-32x32.png" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <title>Space Tourism</title>
+</head>
+<body>
+    <header>
+        <div class="conteiner-menu-global">
+            <div class="conteiner-logo">
+                <img class="logo" src="images/shared/logo.svg" alt="Logo">
+                <div class="rastro"></div>
+            </div>
+        <button class="btn" onclick="ativar()" id="btn-menu">
+            <span class="linha"></span>
+            <span class="linha"></span>
+            <span class="linha"></span>
+        </button>
+        <menu class="menu-desktop">
+            <ul>
+                <li><a href="index.html">00 home</a></li>
+                <li><a href="destination.html">01 destination</a></li>
+                <li><a href="crew.html">02 crew</a></li>
+                <li class="opt-actv2"><a href="technology.html">03 tecnhology</a></li>
+            </ul>
+        </menu>
+    </header>
+    
+
+    <main>
+        <section>
+            <div class="conteiner-title-t">
+                <h1><strong>03</strong>space lauch 101</h1>
+            </div>
+            <div class="conteiner-flex">
+                <div class="conteiner-desc-t">
+                    <div class="conteiner-opt-t">
+                        <ul id="conteiner-opts-t" class="conteiner-opts-t">
+                            <li id="1" class="opts-t opts-t-actv">1</li>
+                            <li id="2"  class="opts-t">2</li>
+                            <li id="3"  class="opts-t">3</li>
+                        </ul>
+                    </div>
+                    <div class="conteiner-text-t">
+                        <p id="desc">the terminology</p>
+                        <h1 id="title">launch vehicle</h1>
+                        <p id="text">A launch vehicle or carrier rocket is a rocket-propelled vehicle used to carry a payload from Earth's surface to space, usually to Earth orbit or beyond. Our WEB-X carrier rocket is the most powerful in operation. Standing 150 metres tall, it's quite an awe-inspiring sight on the launch pad!</p>
+                    </div>
+                </div>
+                
+                </div>
+                <div class="conteiner-img-t">
+                    <picture>
+                        <source id="img-mobile-t" media="(max-width:768px)" srcset="images/technology/image-launch-vehicle-landscape.jpg">
+                        <img id="technology" class="technology" src="images/technology/image-launch-vehicle-portrait.jpg" alt="">
+                    </picture>
+                </div>
+            </div>
+        </section>
+    </main>
+
+
+
+
+    <menu id="mobile-menu" class="mobile-menu">
+        <section class="m-mobile">
+            <ul>
+                <li class="li-opt"><a href="index.html">00 home</a></li>
+                <li class="li-opt"><a href="destination.html">01 destination</a></li>
+                <li class="li-opt"><a href="crew.html">03 crew</a></li>
+                <li class="li-opt"><a href="technology.html">04 tecnhology</a></li>
+            </ul>
+        </section>
+    </menu>
+
+    <picture class="background">
+        <source media="(max-width:430px)" srcset="images/technology/background-technology-mobile.jpg">
+        <source media="(max-width:944px)" srcset="images/technology/background-technology-tablet.jpg">
+        <img src="images/technology/background-technology-desktop.jpg" alt="background">
+    </picture>
+
+    <script src="jstec.js"></script>
+</body>
+</html>
